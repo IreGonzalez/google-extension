@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";let hour=document.querySelector(".js-hour"),minutes=document.querySelector(".js-minutes");
