@@ -1,14 +1,17 @@
 'use strict'
 
-let hour = document.querySelector('.js-hour');
-let minutes = document.querySelector('.js-minutes');
-let seconds = document.querySelector('.js-seconds');
+let hourHTML = document.querySelector('.js-hour');
+let minutesHTML = document.querySelector('.js-minutes');
 
 const showTime = () => {
-    let fecha = new Date()
-    minutes.innerHTML = fecha.getMinutes();
-    hour.innerHTML = fecha.getHours();
-    console.log(fecha);
-}
+    let date = new Date()
+    let hour = date.getHours();
+    let minutes = date.getMinutes();
 
-window.addEventListener('load', showTime)
+    hourHTML.innerHTML = String(hour).padStart(2, "0");
+    minutesHTML.innerHTML = String(minutes).padStart(2, "0");
+    console.log(date);
+
+    setTimeout(showTime, 1000);
+}
+showTime();
