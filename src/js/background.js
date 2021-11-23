@@ -18,7 +18,7 @@ function background() {
     ]
     const randomNumber = Math.ceil(Math.random() * bg.length)
     console.log(randomNumber);
-    const randomBg = bg.slice(randomNumber, randomNumber + 1);
+    const randomBg = bg.slice(randomNumber - 1, randomNumber);
     const bgImage = randomBg[0];
     console.log(bgImage);
     console.log(backgroundImg);
