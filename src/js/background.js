@@ -1,6 +1,6 @@
 'use strict';
 
-const backgroundImg = document.getElementById('js-background').src = './assets/images/Bg-1.jpg';
+const backgroundImg = document.querySelector('.js-background');
 
 function background() {
     const bg = [
@@ -21,9 +21,7 @@ function background() {
     const randomBg = bg.slice(randomNumber - 1, randomNumber);
     const bgImage = randomBg[0];
     console.log(bgImage);
-    console.log(backgroundImg);
-    console.log(`./assets/images/${bgImage}`);
-    backgroundImg.innerHTML = `./assets/images/${bgImage}`;
+    backgroundImg.setAttribute('src', `./assets/images/${bgImage}`);
 
 };
 background();
