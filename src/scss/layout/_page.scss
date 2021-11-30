@@ -2,16 +2,49 @@
     position: absolute;
     height: 100%;
     z-index: 0;
+    width: 100%;
 }
 .header{
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 50%;
+    top: 25%;
     transform: translate(-50%, -50%);
+    color: lavender;
+    font-size: 75px;
 
 }
 .main{
     position: absolute;
     z-index: 1;
+    left: 25%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    &__clock{
+        background-color: rgba($color: #f1ebeb71, $alpha: 0.5);
+        border-radius: 10px;
+        font-size: 100px;
+        
+    }
+    &__form{
+        margin-top: 20px;
+        &--inputName{
+            padding: 5px;
+            border-radius: 5px;
+        }
+        &--submit{
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
+
+.footer{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    &__copy{
+    color: antiquewhite;
+}
 }
