@@ -16,10 +16,8 @@ function background() {
         'https://live.staticflickr.com/65535/49329061008_cf8ea80d4f_k.jpg',
     ]
     const randomNumber = Math.ceil(Math.random() * bg.length)
-    console.log(randomNumber);
     const randomBg = bg.slice(randomNumber - 1, randomNumber);
     const bgImage = randomBg[0];
-    console.log(bgImage);
     backgroundImg.setAttribute('src', `${bgImage}`);
 
 };

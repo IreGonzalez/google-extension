@@ -1,11 +1,16 @@
 'use strict';
 
-const localStorage = () => {
+const setLocalStorage = () => {
     const inputName = document.querySelector('.js-inputName');
     const userName = inputName.value;
-    console.log(userName);
-    localStorage.setItem('name', `${userName}`);
-    const getUserName = localStorage.getItem('name');
+    localStorage.setItem('name', JSON.stringify(userName));
 };
 
-localStorage();
+const getLocalStorage = () => {
+    const nameHTML = document.querySelector('.js-name');
+    const userInfo = localStorage.getItem('name');
+    if (userInfo !== null) {
+        nameHTML.innerHTML = JSON.parse(userInfo);
+    }
+}
+getLocalStorage();
