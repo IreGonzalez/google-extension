@@ -13,4 +13,9 @@ const getLocalStorage = () => {
         nameHTML.innerHTML = JSON.parse(userInfo);
     }
 }
+
+const resetLocalstorage = () => {
+
+}
+
 getLocalStorage();

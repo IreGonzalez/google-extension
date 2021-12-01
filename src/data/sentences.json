@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "name": "Emily Dickinson",
+        "text": "La verdad es una cosa tan rara que es un placer decirla."
+    },
+    {
+        "id": "2",
+        "name": "Gloria Fuertes",
+        "text": "Lo mejor del olvido es el recuerdo."
+    },
+    {
+        "id": "3",
+        "name": "Isabel Allende",
+        "text": "La verdadera amistad resiste el tiempo, la distancia y el silencio."
+    },
+    {
+        "id": "4",
+        "name": "Jane Austen",
+        "text": "Debes ser el mejor juez de tu propia felicidad."
+    },
+    {
+        "id": "5",
+        "name": "Simone Weil",
+        "text": "El dolor es la raíz del conocimiento."
+    },
+    {
+        "id": "6",
+        "name": "Virginia Woolf",
+        "text": "No hay barrera, cerradura ni cerrojo que puedas imponer a la libertad de mi mente."
+    },
+    {
+        "id": "7",
+        "name": "Doris Lessing",
+        "text": "El talento es algo bastante corriente. No escasea la inteligencia, sino la constancia."
+    },
+    {
+        "id": "8",
+        "name": "Laura Gallego",
+        "text": "Para eso sirven los sueños ¿No? Para enseñarnos hasta dónde podemos llegar."
+    },
+    {
+        "id": "9",
+        "name": "Emily Dickinson",
+        "text": "Si se quiere viajar lejos, no hay mejor nave que un libro."
+    },
+    {
+        "id": "10",
+        "name": "Santa Teresa de Jesús",
+        "text": "Si en medio de las adversidades persevera el corazón con serenidad, con gozo y con paz, esto es amor."
+    },
+    {
+        "id": "11",
+        "name": "Rosalía de Castro",
+        "text": "Inexplicable angustia, hondo dolor del alma, recuerdo que no muere, deseo que no acaba."
+    },
+    {
+        "id": "12",
+        "name": "Charlotte Brontë",
+        "text": "Se supone que las mujeres deben ser templadas y pacientes. Cuando no lo son, necesitan tratamiento."
+    },
+    {
+        "id": "13",
+        "name": "Gloria Fuertes",
+        "text": "En vista de lo visto me desvisto, me desnudo a mí misma y me mantengo, me encanta este tener lo que no tengo."
+    },
+    {
+        "id": "14",
+        "name": "Mary Wollstonecraft",
+        "text": "No deseo que las mujeres tengan más poder que los hombres, sino que tengan más poder sobre sí mismas."
+    },
+    {
+        "id": "15",
+        "name": "Toni Morrison",
+        "text": "Si quieres volar, tienes que dejar atrás todas las cosas que te pesan."
+    },
+    {
+        "id": "16",
+        "name": "Helen Keller",
+        "text": "No inclines nunca la cabeza, tenla siempre erguida. Mira al mundo directamente a la cara."
+    },
+    {
+        "id": "17",
+        "name": "Jane Austen",
+        "text": "No recuerdo haber leído ningún libro que no hable de la inestabilidad de la mujer. Quizás porque fueron escritos por hombres."
+    },
+    {
+        "id": "18",
+        "name": "Simone de Beauvoir",
+        "text": "Nadie me conoce ni me quiere completamente. Sólo me tengo a mí misma."
+    },
+    {
+        "id": "19",
+        "name": "Sylvia Plath",
+        "text": "Sal y haz algo. No es tu habitación la que es una prisión, eres tú misma."
+    },
+    {
+        "id": "20",
+        "name": "Ana María Matute",
+        "text": "El mundo hay que fabricárselo uno mismo, hay que crear peldaños que te suban, que te saquen del pozo. Hay que inventar la vida porque acaba siendo verdad."
+    }
+]
