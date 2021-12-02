@@ -37,6 +37,20 @@
             border-radius: 5px;
         }
     }
+    &__sentences{
+        margin: 10px;
+        padding: 10px;
+        background-color: rgba(88, 98, 240, 0.657);
+        border-radius: 30px;
+        color: white;
+        &--author{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        &--phrase{
+            font-size: 20px;
+        }
+    }
 }
 
 .footer{
