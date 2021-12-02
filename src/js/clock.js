@@ -4,7 +4,7 @@ let hourHTML = document.querySelector('.js-hour');
 let minutesHTML = document.querySelector('.js-minutes');
 
 const showTime = () => {
-    let date = new Date()
+    let date = new Date();
     let hour = date.getHours();
     let minutes = date.getMinutes();
 
