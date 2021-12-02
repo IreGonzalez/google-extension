@@ -10,18 +10,22 @@
   <body>
     <img class="background js-background" src="./assets/images/Bg-1.jpg" alt="background">
       <header class="header">
-        <h1>Buenos días<span class="js-name"></span></h1>
+        <h1>Buenos días <span class="js-name"></span></h1>
       </header>
       <main class="main">
         <div class="main__clock">
-          <span class="clock__time js-hour">12</span>
+          <span class="clock__time js-hour">00</span>
           :
-          <span class="clock__time js-minutes">45</span>
+          <span class="clock__time js-minutes">00</span>
         </div>
         <form class="main__form">
-          <input class="main__form--inputName js-inputName" type="text" placeholder="write your name">
-          <input class="main__form--submit" type="submit" value="Submit" class="js-submit">
+          <input id="name" class="main__form--inputName js-inputName" type="text" placeholder="write your name">
+          <input class="main__form--submit js-submit" type="submit" value="Submit">
         </form>
+        <div class="main__sentences">
+          <h2 class="author js-author"></h2>
+          <p class="phrase js-phrase"></p>
+        </div>
       </main>
       <footer class="footer">
         <p class="footer__copy">

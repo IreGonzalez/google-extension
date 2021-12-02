@@ -10,6 +10,8 @@ const phrase = document.querySelector('.js-phrase');
 
 
 function sentences() {
-
+    fetch('./api/sentences.json')
+        .then(response => response.json())
+        .then(data => console.log(data));
 };
 sentences();
