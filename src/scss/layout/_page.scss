@@ -11,44 +11,47 @@
     top: 25%;
     transform: translate(-50%, -50%);
     color: lavender;
-    font-size: 75px;
+    font-size: 20rem;
 
 }
 .main{
     position: absolute;
     z-index: 1;
-    left: 25%;
-    top: 75%;
-    transform: translate(-50%, -50%);
+    transform: translate(5vw, 50vh);
     &__clock{
         background-color: rgba($color: #f1ebeb71, $alpha: 0.5);
         border-radius: 10px;
-        font-size: 100px;
-        
+        font-size: 20rem;
+        width: 50%;
+        text-align: center;
     }
     &__form{
-        margin-top: 20px;
+        margin: 5vh 0 5vh;
+        font-size: 3rem;
         &--inputName{
-            padding: 5px;
-            border-radius: 5px;
+            padding: 3rem;
+            border-radius: 2rem;
         }
         &--submit{
-            padding: 5px;
-            border-radius: 5px;
+            padding: 3rem;
+            border-radius: 2rem;
         }
     }
     &__sentences{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         margin: 10px;
         padding: 10px;
         background-color: rgba(88, 98, 240, 0.657);
         border-radius: 30px;
         color: white;
         &--author{
-            font-size: 25px;
+            font-size: 7rem;
             font-weight: bold;
         }
         &--phrase{
-            font-size: 20px;
+            font-size: 6rem;
         }
     }
 }
@@ -56,10 +59,10 @@
 .footer{
     position: absolute;
     z-index: 1;
-    bottom: 10px;
-    right: 10px;
+    bottom: 2rem;
+    right: 2rem;
     &__copy{
-        font-size: 10px;
+        font-size: 4rem;
         color: antiquewhite;
 }
 }
