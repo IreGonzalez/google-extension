@@ -1,29 +1,62 @@
+body{
+    position: fixed;
+}
 .background{
-    background-size: cover;
+    height: 100vh;
+    transform: translate(-35%);
 }
 .header{
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    color: lavender;
-
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 5px;
+    width: 80%;
+    &__text{
+        color: white;
+        font-size: 2em;
+        text-align: center;
+    }
 }
 .main{
     position: absolute;
     z-index: 1;
+    top: 0px;
     &__clock{
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
         background-color: rgba($color: #f1ebeb71, $alpha: 0.5);
-        
+        border-radius: 10px;
+        font-size: 3rem;
+        padding: 10px;
+        text-align: center;
     }
     &__form{
+        position: fixed;
+        bottom: 35%;
+        opacity: 50%;
         &--inputName{
+            padding: 5px;
+            border-radius: 5px;
+            margin:0 15px ;
         }
         &--submit{
+            padding: 5px;
+            border-radius: 5px;
         }
     }
     &__sentences{
+        position: fixed;
+        bottom: 10%;
         background-color: rgba(88, 98, 240, 0.657);
         color: white;
+        padding: 15px;
         &--author{
+            margin-bottom: 10px;
         }
         &--phrase{
         }
@@ -31,9 +64,16 @@
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     z-index: 1;
+    bottom: 5px;
+    right: 5px;
+    text-align: right;
     &__copy{
         color: antiquewhite;
 }
+}
+
+.hidden{
+    display: none;
 }
