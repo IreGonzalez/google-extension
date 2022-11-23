@@ -2,18 +2,8 @@ body{
     position: fixed;
 }
 .background{
-    height: 100vh;
-    transform: translate(-35%);
-    @media screen and(min-width:420px) {
-        transform: translate(0)scale(115%);
-        height: 100vh;
-    }
-    @media screen and(min-width:768px) {
-        transform: translateY(60%)translateX(-10%) scale(280%);
-    }
-    @media screen and(min-width:1024px) {
-        transform: translateY(20%) scale(150%);
-    }
+    max-height: 100vh;
+
 }
 .header{
     position: fixed;
