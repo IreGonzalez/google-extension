@@ -8,34 +8,45 @@
   </head>
 
   <body>
-    <img class="background js-background" src="" alt="background">
-      <header class="header">
-        <h1 class="header__text">Buenos días <span class="js-name"></span></h1>
-      </header>
-      <main class="main">
-        <div class="main__clock">
-          <span class="clock__time js-hour">00</span>
-          :
-          <span class="clock__time js-minutes">00</span>
-        </div>
-        <form class="main__form">
-          <input id="name" class="main__form--inputName js-inputName" type="text" placeholder="write your name">
-          <input class="main__form--button js-submit" type="submit" value="Submit">
-          <button class="main__form--button hidden js-reset">Reset</button>
-        </form>
-        <div class="main__sentences">
-          <h2 class="main__sentences--author js-author"></h2>
-          <p class="main__sentences--phrase js-phrase"></p>
-        </div>
-      </main>
-      <footer class="footer">
-        <p class="footer__copy">
-          Images from Flickr.com
-        </p>
-        <div class="footer__copy">
-          <small>&copy;2021 By <a href="https://github.com/IreGonzalez">IreGonzalez</a></small>
-        </div>
-      </footer>
+    <div class="background__container">
+      <img class="background js-background" src="" alt="background" />
+    </div>
+    <header class="header">
+      <h1 class="header__text">Buenos días <span class="js-name"></span></h1>
+    </header>
+    <main class="main">
+      <div class="main__sentences">
+        <h2 class="main__sentences--author js-author"></h2>
+        <p class="main__sentences--phrase js-phrase"></p>
+      </div>
+      <div class="main__clock">
+        <span class="clock__time js-hour">00</span>
+        :
+        <span class="clock__time js-minutes">00</span>
+      </div>
+      <form class="main__form">
+        <input
+          id="name"
+          class="main__form--inputName js-inputName"
+          type="text"
+          placeholder="write your name"
+        />
+        <input
+          class="main__form--button js-submit"
+          type="submit"
+          value="Submit"
+        />
+        <button class="main__form--button hidden js-reset">Reset name</button>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__copy">
+        <small
+          >&copy;2021 By
+          <a href="https://github.com/IreGonzalez">IreGonzalez</a></small
+        >
+      </div>
+    </footer>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>

@@ -1,19 +1,34 @@
 body{
+    max-width: 100vw;
+    max-height: 100vh;
     position: fixed;
+    overflow: hidden;
 }
 .background{
-    max-height: 100vh;
+    height: 100%;
+    width: auto;
+    @media screen and(min-width:768px) {
 
+    }
+    @media screen and(min-width:1024px) {
+        min-width: 100%;
+        height: fit-content;
+    }
+    &__container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 }
 .header{
     position: fixed;
     z-index: 1;
-    top: 20%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    top: 0;
     background-color: rgba(128, 128, 128, 0.5);
     padding: 5px;
-    width: 80%;
+    width: 100%;
     @media screen and(min-width:768px) {
     }
     @media screen and(min-width:1024px) {
@@ -40,29 +55,29 @@ body{
     }
     &__clock{
         position: fixed;
-        top: 40%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        background-color: rgba($color: #f1ebeb71, $alpha: 0.5);
-        border-radius: 10px;
+        bottom: 15%;
+        background-color: rgba(88, 98, 240, 0.657);
+        color: white;
+        padding: 15px;
         font-size: 3rem;
         padding: 10px;
         text-align: center;
         display: flex;
         @media screen and(min-width:768px) {
-            font-size: 7em;
+            
         }
         @media screen and(min-width:1024px) {
         }
     }
     &__form{
         position: fixed;
-        bottom: 35%;
+        bottom: 5%;
         opacity: 50%;
         &--inputName{
             padding: 5px;
             border-radius: 5px;
             margin:0 15px ;
+            caret-color: rgba(88, 98, 240, 0.657);
             @media screen and(min-width:768px) {
                 font-size: 2.5em;
             }
@@ -73,22 +88,30 @@ body{
             padding: 5px;
             border-radius: 5px;
             margin-left:15px;
+            background-color: transparent;
+            color: rgba($color: #f1ebeb71, $alpha: 0.5);
             @media screen and(min-width:768px) {
                 font-size: 2.5em;
             }
             @media screen and(min-width:1024px) {
             }
+            &:hover{
+                color: #fff;
+            }
         }
     }
     &__sentences{
+        width: 80%;
         position: fixed;
-        bottom: 10%;
-        background-color: rgba(88, 98, 240, 0.657);
-        color: white;
+        top: 40%;
+        left: 50%;
+        font-size: 2rem;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: rgba($color: #f1ebeb71, $alpha: 0.5);
+        border-radius: 10px;
         padding: 15px;
         @media screen and(min-width:568px) {
             padding: 5px;
-            bottom: 12%;
         }
         @media screen and(min-width:768px) {
             padding: 20px;
@@ -98,14 +121,14 @@ body{
         &--author{
             margin-bottom: 10px;
             @media screen and(min-width:768px) {
-            font-size: 2.5em;
+            font-size: 1.5em;
             }
             @media screen and(min-width:1024px) {
             }
         }
         &--phrase{
             @media screen and(min-width:768px) {
-            font-size: 1.5em;
+            font-size: 1em;
             }
         }
     }
